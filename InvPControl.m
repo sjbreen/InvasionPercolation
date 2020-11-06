@@ -47,9 +47,6 @@ StartPoint = [floor(0.95*size(RField,1)),floor(0.5*size(RField,2))]; %Gas
 % injection point in A, 90% down, 50% across
 BW = 5; %Border Width
 
-
-
-
 if vidnovid == 1
     [A,InvNum,InvList,aviobj] = InvPFuncListed(A,StartPoint,BW,DensDef,DensInv,Grav,CapPres,vidnovid);
 elseif vidnovid == 0
